@@ -173,3 +173,8 @@ E:\Projects\DotnetBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Books\Delete.csh
 E:\Projects\DotnetBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Books\Details.cshtml.g.cs
 E:\Projects\DotnetBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Books\Edit.cshtml.g.cs
 E:\Projects\DotnetBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Books\Index.cshtml.g.cs
+E:\Projects\DotnetBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Genres\Create.cshtml.g.cs
+E:\Projects\DotnetBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Genres\Delete.cshtml.g.cs
+E:\Projects\DotnetBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Genres\Details.cshtml.g.cs
+E:\Projects\DotnetBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Genres\Edit.cshtml.g.cs
+E:\Projects\DotnetBookStore\obj\Debug\netcoreapp3.1\Razor\Views\Genres\Index.cshtml.g.cs

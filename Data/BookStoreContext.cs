@@ -16,5 +16,7 @@ namespace DotnetBookStore.Data
         }
 
         public DbSet<Book> Book { get; set; }
+
+        public DbSet<DotnetBookStore.Models.Genre> Genre { get; set; }
     }
 }

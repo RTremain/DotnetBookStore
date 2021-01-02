@@ -9,20 +9,50 @@
 <div>
     <h4>Book</h4>
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Title)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-    </dl>
+	<dl class="row">
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.Title)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.Title)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.Description)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.Description)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.ReleaseDate)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.ReleaseDate)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.OnlinePrice)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.OnlinePrice)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.InStorePrice)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.InStorePrice)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.AvailableInStore)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.AvailableInStore)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.AverageRating)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.AverageRating)
+		</dd>
+	</dl>
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
