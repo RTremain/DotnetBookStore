@@ -26,6 +26,20 @@ namespace DotnetBookStore.Data
                 }
                 context.SaveChanges();
             }
+
+            if (!context.Genre.Any())
+            {
+                var genres = new Genre[]
+                {
+                    new Genre{Name="Fantasy"}
+                };
+
+                foreach (Genre g in genres)
+                {
+                    context.Genre.Add(g);
+                }
+                context.SaveChanges();
+            }
         }
     }
 }
